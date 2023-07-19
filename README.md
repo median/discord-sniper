@@ -35,7 +35,8 @@ Once a username is claimed, it will appear in `claimed.txt` in the following for
 - [Anycaptcha](https://anycaptcha.com/)
 
 ## **Images**
-Will put some here soon
+![.](https://github.com/median/discord-sniper/blob/main/images/claim%20log.png?raw=true)
+![.](https://github.com/median/discord-sniper/blob/main/images/captcha%20error.png?raw=true)
 
 ### **DISCLAIMER**
 This is not an autoclaimer, this tool should only be used for swapping usernames or when you know a username will drop soon (like when a username is just recently changed) because this will eat up your captcha balance.
