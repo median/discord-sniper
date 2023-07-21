@@ -35,10 +35,10 @@ Once a username is claimed, it will appear in `claimed.txt` in the following for
 - [Anycaptcha](https://anycaptcha.com/)
 
 ## **Images**
-**Claim Log:**
+**Claim Log:**  
 ![](https://github.com/median/discord-sniper/blob/main/images/claim%20log.png?raw=true)
 
-**Captcha balance warning:**
+**Captcha balance warning:**  
 ![](https://github.com/median/discord-sniper/blob/main/images/captcha%20error.png?raw=true)
 
 ## **Example Config**
