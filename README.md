@@ -5,7 +5,7 @@
 
 The fastest and easiest to use Discord sniper, all for free. Might make this open source in the future, but for now it's closed source.
 
-[Contact me](https://t.me/charset)
+[Contact me](https://t.me/charset) • [Download](https://github.com/median/discord-sniper/releases/latest)
 
 ## **Features**
 - Many concurrent claim tokens, rotating in order to avoid any rate limits
@@ -16,7 +16,7 @@ The fastest and easiest to use Discord sniper, all for free. Might make this ope
 - Discord webhook logs (see below for pictures)
 
 ## **Usage**
-**1)** Download the latest windows/linux build [here](https://github.com/median/discord-sniper/releases/latest) and put it in it's own folder
+**1)** Download the latest build [here](https://github.com/median/discord-sniper/releases/latest) and put it in it's own folder
 
 **2)** Create 3 files: tokens.txt, proxies.txt, usernames.txt. Each item in each text file is seperated by a new line. The token format must be `email:pass:token` or `pass:token`. The proxy format must be `user:pass@ip:port` or `ip:port`.
 
@@ -35,8 +35,38 @@ Once a username is claimed, it will appear in `claimed.txt` in the following for
 - [Anycaptcha](https://anycaptcha.com/)
 
 ## **Images**
-![.](https://github.com/median/discord-sniper/blob/main/images/claim%20log.png?raw=true)
-![.](https://github.com/median/discord-sniper/blob/main/images/captcha%20error.png?raw=true)
+**Claim Log:**
+![](https://github.com/median/discord-sniper/blob/main/images/claim%20log.png?raw=true)
+
+**Captcha balance warning:**
+![](https://github.com/median/discord-sniper/blob/main/images/captcha%20error.png?raw=true)
+
+## **Example Config**
+Example config with many different captcha services that'll rotate on each solve to spread the load across them:
+```
+{
+    "threads": 1,
+    "captcha_verbose": false,
+    "webhook_url": "Your Discord Webhook",
+    "captcha_services": [
+        {
+            "service_name": "capmonster",
+            "key": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "use_proxy": false
+        },
+        {
+            "service_name": "capsolver",
+            "key": "CAP-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "use_proxy": true
+        },
+        {
+            "service_name": "anticaptcha",
+            "key": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "use_proxy": false
+        }
+    ]
+}
+```
 
 ### **DISCLAIMER**
 This is not an autoclaimer, this tool should only be used for swapping usernames or when you know a username will drop soon (like when a username is just recently changed) because this will eat up your captcha balance.
