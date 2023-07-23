@@ -3,7 +3,7 @@
 ![](https://img.shields.io/github/downloads/median/discord-sniper/total?label=Downloads)
 ![](https://img.shields.io/github/stars/median/discord-sniper)
 
-The fastest and easiest to use Discord sniper, all for free. Might make this open source in the future, but for now it's closed source.
+The fastest and easiest to use Discord sniper, all for free. This is the free version of my sniper, if you want to buy the paid version you can [here](https://shop.ghaph.com)
 
 [Contact me](https://t.me/charset) • [Download](https://github.com/median/discord-sniper/releases/latest)
 
@@ -35,7 +35,7 @@ Once a username is claimed, it will appear in `claimed.txt` in the following for
 - [Anycaptcha](https://anycaptcha.com/)
 
 ## **Images**
-**Claim Log:**  
+**Claim log:**  
 ![](https://github.com/median/discord-sniper/blob/main/images/claim%20log.png?raw=true)
 
 **Captcha balance warning:**  
